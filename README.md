@@ -4,3 +4,4 @@ Promise : A promise is an object that may produce a single value some time in th
 
 filter: Filter item from a list.
 
+map: map will return new type of Array.
