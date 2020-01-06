@@ -74,12 +74,20 @@
     // })
 
     // some 
+
+    // var hasValue = items.some((item) => {
+    //     return item.price <= 100;
+    // })
     
-    var hasValue = items.some((item) => {
+    // console.log('Array method some.');
+    // console.log(hasValue);
+
+    var hasValue = items.every((item) => {
         return item.price <= 100;
     })
-    
-    console.log('Array method some.');
+
+    console.log('Array method every.');
     console.log(hasValue);
+    
 </script>
 </html>
