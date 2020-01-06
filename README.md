@@ -6,3 +6,4 @@ filter: Filter item from a list.
 
 map: map will return new type of Array.
 
+find: it will return a single object of an array. 

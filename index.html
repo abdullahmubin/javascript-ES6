@@ -53,12 +53,19 @@
 
     // Array Methods:- map
 
-    var mapItems = items.map((item) => {
-        return item.name;
+    // var mapItems = items.map((item) => {
+    //     return item.name;
+    // })
+
+    // console.log('map items');
+    // console.log(mapItems);
+
+    var findItems = items.find((item) => {
+        return item.name === 'Book';
     })
 
-    console.log('map items');
-    console.log(mapItems);
+    console.log('find items');
+    console.log(findItems);
     
 </script>
 </html>
