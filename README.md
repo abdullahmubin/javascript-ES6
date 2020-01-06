@@ -9,3 +9,5 @@ map: map will return new type of Array.
 find: it will return very first single object of an array. 
 
 forEach: it doesn't return anything, its very similar like for loop.
+
+some: it return true or false based on condition.
