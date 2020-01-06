@@ -13,20 +13,40 @@
 <script>
 
     // Promise
-    let p = new Promise((resolve, reject) => {
-        let a = 1 + 1;
-        if (a == 2) {
-            resolve('Success.');
-        }
-        else {
-            reject('Failed.');
-        }
+
+    // let p = new Promise((resolve, reject) => {
+    //     let a = 1 + 1;
+    //     if (a == 2) {
+    //         resolve('Success.');
+    //     }
+    //     else {
+    //         reject('Failed.');
+    //     }
+    // })
+
+    // p.then((message) => {
+    //     console.log('This is success ' + message);
+    // }).catch((message) => {
+    //     console.log('This is when failed ' + message);
+    // })
+
+    // Array Methods:- filter.
+
+    const items = [
+        { name: 'Bike', price: 100 },
+        { name: 'TV', price: 200 },
+        { name: 'Album', price: 10 },
+        { name: 'Book', price: 5 },
+        { name: 'Phone', price: 500 },
+        { name: 'Computer', price: 1000 },
+        { name: 'Keyboard', price: 25}
+    ];
+
+    const filteredItems = items.filter((item) => {
+        return item.price <= 100;
     })
 
-    p.then((message) => {
-        console.log('This is success ' + message);
-    }).catch((message) => {
-        console.log('This is when failed ' + message);
-    })
+    console.log('filtered Items');
+    console.log(filteredItems);
 </script>
 </html>
