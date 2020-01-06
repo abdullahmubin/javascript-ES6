@@ -6,4 +6,6 @@ filter: Filter item from a list.
 
 map: map will return new type of Array.
 
-find: it will return a single object of an array. 
+find: it will return very first single object of an array. 
+
+forEach: it doesn't return anything, its very similar like for loop.
