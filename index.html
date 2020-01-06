@@ -8,7 +8,25 @@
 </head>
 
 <body>
-Content of the document......
+    <h2>Javascript/ES6</h2>
 </body>
+<script>
 
+    // Promise
+    let p = new Promise((resolve, reject) => {
+        let a = 1 + 1;
+        if (a == 2) {
+            resolve('Success.');
+        }
+        else {
+            reject('Failed.');
+        }
+    })
+
+    p.then((message) => {
+        console.log('This is success ' + message);
+    }).catch((message) => {
+        console.log('This is when failed ' + message);
+    })
+</script>
 </html>
