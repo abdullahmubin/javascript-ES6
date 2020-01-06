@@ -13,3 +13,7 @@ forEach: it doesn't return anything, its very similar like for loop.
 some: it return true or false based on condition.
 
 every: it will return true or false based on every object of an array. 
+
+reduce: it perform other operation and return desire value.
+
+include: it will return true if passing value match with an array.
