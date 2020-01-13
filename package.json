@@ -1,0 +1,25 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "Promise : A promise is an object that may produce a single value some time in the future: either a resolved value, or a reason that it’s not resolved (e.g., a network error occurred). A promise may be in one of 3 possible states: fulfilled, rejected, or pending. Promise users can attach callbacks to handle the fulfilled value or the reason for rejection.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdullahmubin/javascript-ES6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdullahmubin/javascript-ES6/issues"
+  },
+  "homepage": "https://github.com/abdullahmubin/javascript-ES6#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.8.0",
+    "@babel/core": "^7.8.0",
+    "@babel/preset-env": "^7.8.2"
+  }
+}
